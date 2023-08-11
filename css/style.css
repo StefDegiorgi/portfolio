@@ -1,12 +1,6 @@
 body {
   background-color: #003049;
   font-family: Arial, sans-serif;
-
-}
-
-body,
-ul,
-li {
   margin: 0;
   padding: 0;
 }
@@ -19,10 +13,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 main {
+  margin-left: 50px;
+  color: aquamarine;
   font-size: 24px;
   font-weight: bold;
 }
@@ -33,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  margin-right: 150px;
 }
 
 nav a {
@@ -50,6 +46,62 @@ nav a:hover {
   padding: 10px 20px;
 }
 
+.home {
+  font-family: Andale Mono, monospace;
+  background-color: #0a9396;
+  padding: 250px;
+  text-align: left; 
+
+  
+}
+
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home h2 {
+  margin-left: 130px;
+  margin-top: 100px;
+  font-size: 36px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.about-text {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about h1,
+.about p {
+  color: white;
+}
+
+.about h1 {
+  font-size: 36px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.about p {
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -64,4 +116,9 @@ nav a:hover {
   nav li {
     margin: 10px 0;
   }
+}
+
+.about-img {
+  height: 400px;
+  width: 320px;
 }
