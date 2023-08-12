@@ -19,11 +19,12 @@ header {
 main {
   margin-left: 50px;
   color: aquamarine;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 nav ul {
+  font-size: 20px;
   list-style: none;
   display: flex;
 }
@@ -42,9 +43,7 @@ nav a:hover {
   border-bottom: 3px solid #f39c12;
 }
 
-.social-header {
-  padding: 10px 20px;
-}
+
 
 .home {
   font-family: Andale Mono, monospace;
@@ -127,6 +126,7 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px;
+  margin-bottom: 100px;
 }
 
 .project-img {
@@ -134,4 +134,39 @@ nav a:hover {
   height: 250px;
   border-radius: 20px;
   object-fit: cover;
+}
+.project-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-img:hover::before {
+  content: "Click to view";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-img:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-img:hover::before,
+.project-img:hover::after {
+  opacity: 1;
 }

@@ -31,8 +31,10 @@
     </div>
   </div>
   <section class="home" id="home">
-    <h1>Curiosity, determination and codes</h1>
-    <h2>Hi I'm Stefano</h2>
+    <div class="home-text">
+      <h1>Curiosity, determination and codes</h1>
+      <h2>Hi I'm Stefano</h2>
+    </div>
   </section>
   <section class="about" id="about">
     <div class="left">
@@ -52,12 +54,19 @@
   <section class="projects" id="projects">
     <h1>Projects</h1>
     <div class="projects">
-      <img class="project-img" src="img/step_goal.png">
-      <img class="project-img" src="img/sudoku-game.png">
-      <img class="project-img" src="img/user-list.png">
-      <img class="project-img" src="img/blackjack.png">
+      <a href="https://github.com/StefDegiorgi/step_goal">
+        <img class="project-img" src="img/step_goal.png">
+      </a>
+      <a href="https://github.com/StefDegiorgi/sudoku-game">
+        <img class="project-img" src="img/sudoku-game.png">
+      </a>
+      <a href="https://github.com/StefDegiorgi/step_goal">
+        <img class="project-img" src="img/user-list.png">
+      </a>
+      <a href="https://github.com/StefDegiorgi/step_goal">
+        <img class="project-img" src="img/blackjack.png">
+      </a>
     </div>
   </section>
-
 </body>
 </html>
