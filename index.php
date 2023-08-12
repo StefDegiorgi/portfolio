@@ -54,19 +54,40 @@
   <section class="projects" id="projects">
     <h1>Projects</h1>
     <div class="projects">
-      <a href="https://github.com/StefDegiorgi/step_goal">
-        <img class="project-img" src="img/step_goal.png">
-      </a>
-      <a href="https://github.com/StefDegiorgi/sudoku-game">
-        <img class="project-img" src="img/sudoku-game.png">
-      </a>
-      <a href="https://github.com/StefDegiorgi/step_goal">
-        <img class="project-img" src="img/user-list.png">
-      </a>
-      <a href="https://github.com/StefDegiorgi/step_goal">
-        <img class="project-img" src="img/blackjack.png">
-      </a>
-    </div>
+      <div class="projects">
+        <div class="project">
+          <a href="https://github.com/StefDegiorgi/step_goal">
+            <img class="project-img" src="img/step_goal.png" alt="Step Goal Project">
+          </a>
+          <p class="project-description">Step Goal Project Description</p>
+        </div>
+        <div class="project">
+          <a href="https://github.com/StefDegiorgi/sudoku-game">
+            <img class="project-img" src="img/sudoku-game.png" alt="Sudoku Game Project">
+          </a>
+          <p class="project-description">Sudoku Game Project Description</p>
+        </div>
+        <div class="project">
+          <a href="https://github.com/StefDegiorgi/step_goal">
+            <img class="project-img" src="img/user-list.png" alt="Step Goal Project">
+          </a>
+          <p class="project-description">User List Project Description</p>
+        </div>
+        <div class="project">
+          <a href="https://github.com/StefDegiorgi/sudoku-game">
+            <img class="project-img" src="img/blackjack.png" alt="Sudoku Game Project">
+          </a>
+          <p class="project-description">Blackjack Project Description</p>
+        </div>
+  </section>
+   <section class="contact" id="contact">
+  <h1>Contact Me</h1>
+    <form>
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" value="SUBMIT" />
+    </form>
   </section>
 </body>
 </html>

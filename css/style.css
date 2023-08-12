@@ -51,7 +51,7 @@ nav a:hover {
   padding: 250px;
   text-align: left;
 
-  
+
 }
 
 .home h1 {
@@ -70,7 +70,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 100px 0;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 .left,
@@ -135,6 +135,7 @@ nav a:hover {
   border-radius: 20px;
   object-fit: cover;
 }
+
 .project-img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -169,4 +170,67 @@ nav a:hover {
 .project-img:hover::before,
 .project-img:hover::after {
   opacity: 1;
+}
+
+.projects .projects .projects {
+  color: white;
+  font-size: 18px;
+}
+
+.contact h1 {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid black;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: black;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: black;
 }
