@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Protfolio | Stefano Degiorgi</title>
   <link rel="stylesheet" href="css/style.css">
+
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <script src="index.js"></script>
 </head>
@@ -45,8 +46,18 @@
       </div>
     </div>
     <div class="right">
-      <img class="about-img" src="img/profil.jpg" alt="picture of nimai">
+      <img class="about-img" src="img/profil.jpg" alt="picture of stefano">
     </div>
   </section>
+  <section class="projects" id="projects">
+    <h1>Projects</h1>
+    <div class="projects">
+      <img class="project-img" src="img/step_goal.png">
+      <img class="project-img" src="img/sudoku-game.png">
+      <img class="project-img" src="img/user-list.png">
+      <img class="project-img" src="img/blackjack.png">
+    </div>
+  </section>
+
 </body>
 </html>
