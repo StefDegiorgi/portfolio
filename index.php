@@ -80,14 +80,31 @@
           <p class="project-description">Blackjack Project Description</p>
         </div>
   </section>
-   <section class="contact" id="contact">
-  <h1>Contact Me</h1>
+  <section class="contact" id="contact">
+    <h1>Contact Me</h1>
     <form>
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
-      <input name="email" type="text" class="feedback-input" placeholder="Email" />
-      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input name="subject" type="text" class="feedback-input" placeholder="Subject">
+      <input name="mail" type="text" class="feedback-input" placeholder="E-Mail" />
+      <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
       <input type="submit" value="SUBMIT" />
     </form>
   </section>
+
+  <?php
+  if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $mailfrom = $_POST['mail'];
+    $message = $_POST['message'];
+
+    $mailTo = "stef.degiorgi@bluewin.ch";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an E-Mail from ".$name.".\n\n".$message;
+    
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: index.php?mailsend");
+  }
+  ?>
 </body>
 </html>
