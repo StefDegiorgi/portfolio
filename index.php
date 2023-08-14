@@ -52,6 +52,7 @@
     </div>
   </section>
   <section class="projects" id="projects">
+    <br>
     <h1>Projects</h1>
     <div class="projects">
       <div class="projects">
@@ -69,13 +70,13 @@
         </div>
         <div class="project">
           <a href="https://github.com/StefDegiorgi/step_goal">
-            <img class="project-img" src="img/user-list.png" alt="Step Goal Project">
+            <img class="project-img" src="img/user-list.png" alt="User List Project">
           </a>
           <p class="project-description">User List Project Description</p>
         </div>
         <div class="project">
           <a href="https://github.com/StefDegiorgi/sudoku-game">
-            <img class="project-img" src="img/blackjack.png" alt="Sudoku Game Project">
+            <img class="project-img" src="img/blackjack.png" alt="Blackjack Project">
           </a>
           <p class="project-description">Blackjack Project Description</p>
         </div>
@@ -85,7 +86,7 @@
     <form>
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
       <input name="subject" type="text" class="feedback-input" placeholder="Subject">
-      <input name="mail" type="text" class="feedback-input" placeholder="E-Mail" />
+      <input name="mail" type="text" class="feedback-input" placeholder="Email" />
       <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
       <input type="submit" value="SUBMIT" />
     </form>
@@ -101,10 +102,11 @@
     $mailTo = "stef.degiorgi@bluewin.ch";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an E-Mail from ".$name.".\n\n".$message;
-    
+
     mail($mailTo, $subject, $txt, $headers);
     header("Location: index.php?mailsend");
   }
   ?>
 </body>
+
 </html>

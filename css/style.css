@@ -1,16 +1,12 @@
 body {
-  background-color: #0a9396;
+  background-color: #000814;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .nav-container {
-  background-color: #15616d;
-  position: fixed; /* Add this line */
-  width: 100%; /* Add this line */
-  top: 0; /* Add this line */
-  z-index: 1000; /* Add this line */
+  background-color: #000814;
 }
 
 header {
@@ -51,11 +47,9 @@ nav a:hover {
 
 .home {
   font-family: Andale Mono, monospace;
-  background-color: #0a9396;
+  background-color: #e36414;
   padding: 250px;
   text-align: left;
-
-
 }
 
 .home h1 {
@@ -74,17 +68,18 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 100px 0;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-.left,
-.right {
-  flex: 1;
+.about .left {
+  text-align: left;
+  margin-right: 300px;
 }
 
 .about-text {
   max-width: 500px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .about h1,
@@ -99,29 +94,28 @@ nav a:hover {
 }
 
 .about p {
-  font-size: 20px;
+  font-size: 28px;
   border: 2px solid white;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   display: inline-block;
 }
 
 .about-img {
-  height: 400px;
+  height: 390px;
   width: 320px;
 }
 
 
 .projects {
-  margin-top: 50px;
-  background-color: #0a9396;
+  margin-top: 20px;
+  background-color: #1c2541;
   text-align: center;
 }
 
 .projects h1 {
   font-size: 36px;
   color: white;
-  margin-bottom: 20Fpx;
 }
 
 .projects .projects {
@@ -130,7 +124,7 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .project-img {
