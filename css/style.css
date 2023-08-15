@@ -1,12 +1,12 @@
 body {
-  background-color: #000814;
+  background-color: #00193d;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .nav-container {
-  background-color: #000814;
+  background-color: #021e45;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 
 main {
   margin-left: 50px;
-  color: aquamarine;
+  color: white;
   font-size: 36px;
   font-weight: bold;
 }
@@ -109,7 +109,7 @@ nav a:hover {
 
 .projects {
   margin-top: 20px;
-  background-color: #1c2541;
+  background-color: #00193d;
   text-align: center;
 }
 
@@ -178,6 +178,10 @@ nav a:hover {
 .contact h1 {
   font-size: 36px;
   text-align: center;
+  color: white;
+}
+
+::placeholder {
   color: white;
 }
 

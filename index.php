@@ -26,8 +26,6 @@
       </nav>
     </header>
     <div class="social-header">
-      <ul>
-      </ul>
     </div>
   </div>
   <section class="home" id="home">
@@ -41,7 +39,7 @@
       <div class="about-text">
         <h1>About me</h1>
         <p class="desc">
-          Hello. My Name is Stefano Degiorgi.
+          Hello. My name is Stefano Degiorgi.
           I'm a Swiss Student, making an apprenticeship as a computer scientist in Zürich.
           My main program languages are Java and JavaScript, but im open to learn new languages.
         </p>
@@ -60,25 +58,31 @@
           <a href="https://github.com/StefDegiorgi/step_goal">
             <img class="project-img" src="img/step_goal.png" alt="Step Goal Project">
           </a>
-          <p class="project-description">Step Goal Project Description</p>
+          <p class="project-description">Step Goal Project</p>
         </div>
         <div class="project">
           <a href="https://github.com/StefDegiorgi/sudoku-game">
             <img class="project-img" src="img/sudoku-game.png" alt="Sudoku Game Project">
           </a>
-          <p class="project-description">Sudoku Game Project Description</p>
+          <p class="project-description">Sudoku Game Project</p>
         </div>
         <div class="project">
           <a href="https://github.com/StefDegiorgi/step_goal">
             <img class="project-img" src="img/user-list.png" alt="User List Project">
           </a>
-          <p class="project-description">User List Project Description</p>
+          <p class="project-description">User List Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/sudoku-game">
+          <a href="https://github.com/StefDegiorgi/BlackJack">
             <img class="project-img" src="img/blackjack.png" alt="Blackjack Project">
           </a>
-          <p class="project-description">Blackjack Project Description</p>
+          <p class="project-description">Blackjack Project</p>
+        </div>
+        <div class="project">
+          <a href="https://github.com/StefDegiorgi">
+            <img class="project-img" src="img/github.png" alt="Blackjack Project">
+          </a>
+          <p class="project-description">More Projects</p>
         </div>
   </section>
   <section class="contact" id="contact">
