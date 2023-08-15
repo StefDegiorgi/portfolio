@@ -47,7 +47,7 @@ nav a:hover {
 
 .home {
   font-family: Andale Mono, monospace;
-  background-color: #e36414;
+  background-color: #f0ead2;
   padding: 250px;
   text-align: left;
 }
@@ -109,7 +109,7 @@ nav a:hover {
 
 .projects {
   margin-top: 20px;
-  background-color: #00193d;
+  background-color: #5a189a;
   text-align: center;
 }
 
