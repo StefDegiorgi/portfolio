@@ -5,4 +5,4 @@ If you have any questions, feel free to contact me via the contact form on my we
 
 # My website
 
-https://stefano-degiorgi.ch/
+https://stefano-degiorgi.ch
