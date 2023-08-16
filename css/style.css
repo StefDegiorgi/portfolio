@@ -236,3 +236,22 @@ textarea {
 [type="submit"]:hover {
   background: black;
 }
+
+@media screen and (max-width: 1366px) {
+  main {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  nav ul {
+    font-size: 20px;
+  }
+
+  nav li {
+    margin-right: 80px;
+  }
+
+  .home {
+    padding: 150px;
+  }
+}
