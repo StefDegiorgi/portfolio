@@ -55,31 +55,31 @@
     <div class="projects">
       <div class="projects">
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/step_goal">
+          <a href="https://github.com/StefDegiorgi/step_goal" target="_blank">
             <img class="project-img" src="img/step_goal.png" alt="Step Goal Project">
           </a>
           <p class="project-description">Step Goal Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/sudoku-game">
+          <a href="https://github.com/StefDegiorgi/sudoku-game" target="_blank">
             <img class="project-img" src="img/sudoku-game.png" alt="Sudoku Game Project">
           </a>
           <p class="project-description">Sudoku Game Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/step_goal">
+          <a href="https://github.com/StefDegiorgi/step_goal" target="_blank">
             <img class="project-img" src="img/user-list.png" alt="User List Project">
           </a>
           <p class="project-description">User List Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/BlackJack">
+          <a href="https://github.com/StefDegiorgi/BlackJack" target="_blank">
             <img class="project-img" src="img/blackjack.png" alt="Blackjack Project">
           </a>
           <p class="project-description">Blackjack Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi">
+          <a href="https://github.com/StefDegiorgi" target="_blank">
             <img class="project-img" src="img/github.png" alt="Blackjack Project">
           </a>
           <p class="project-description">More Projects</p>
