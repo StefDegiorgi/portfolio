@@ -87,12 +87,12 @@
   </section>
   <section class="contact" id="contact">
     <h1>Contact Me</h1>
-    <form>
+    <form action="index.php" method="POST">
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
       <input name="subject" type="text" class="feedback-input" placeholder="Subject">
       <input name="mail" type="text" class="feedback-input" placeholder="Email" />
       <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
-      <input type="submit" value="SUBMIT" />
+      <input type="submit" name="submit" value="SUBMIT" />
     </form>
   </section>
 
