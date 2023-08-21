@@ -67,7 +67,7 @@
           <p class="project-description">Sudoku Game Project</p>
         </div>
         <div class="project">
-          <a href="https://github.com/StefDegiorgi/step_goal" target="_blank">
+          <a href="https://github.com/StefDegiorgi/Coworking_Space_M233" target="_blank">
             <img class="project-img" src="img/user-list.png" alt="User List Project">
           </a>
           <p class="project-description">User List Project</p>
