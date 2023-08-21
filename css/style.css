@@ -104,6 +104,7 @@ nav a:hover {
 .about-img {
   height: 390px;
   width: 320px;
+  pointer-events: none;
 }
 
 
@@ -172,7 +173,7 @@ nav a:hover {
 
 .projects .projects .projects {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contact h1 {
@@ -253,5 +254,15 @@ textarea {
 
   .home {
     padding: 150px;
+  }
+  .project-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .projects .projects .projects {
+    color: white;
+    font-size: 18px;
   }
 }

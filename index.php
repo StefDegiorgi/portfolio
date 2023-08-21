@@ -100,15 +100,23 @@
   if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $subject = $_POST['subject'];
-    $mailfrom = $_POST['mail'];
+    $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
+
+    if (!filter_var($mailFrom, FILTER_VALIDATE_EMAIL)) {
+      header("Location: index.php?error=invalidemail");
+      exit();
+    }
 
     $mailTo = "stef.degiorgi@bluewin.ch";
     $headers = "From: ".$mailFrom;
-    $txt = "You have received an E-Mail from ".$name.".\n\n".$message;
+    $txt = "You have received an E-Mail from".$name.".\n\n".$message;
 
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.php?mailsend");
+    if (mail($mailTo, $subject, $txt, $headers)) {
+      header("Location: index.php?mailsend");
+    } else {
+      header("Location: index.php?error=mailerror");
+    }
   }
   ?>
 </body>
