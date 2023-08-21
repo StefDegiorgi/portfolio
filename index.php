@@ -70,7 +70,7 @@
           <a href="https://github.com/StefDegiorgi/Coworking_Space_M233" target="_blank">
             <img class="project-img" src="img/user-list.png" alt="User List Project">
           </a>
-          <p class="project-description">User List Project</p>
+          <p class="project-description">Coworking Space Project</p>
         </div>
         <div class="project">
           <a href="https://github.com/StefDegiorgi/BlackJack" target="_blank">
