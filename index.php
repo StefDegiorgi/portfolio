@@ -88,11 +88,11 @@
   <section class="contact" id="contact">
     <h1>Contact Me</h1>
     <form action="index.php" method="POST">
-      <input name="name" type="text" class="feedback-input" placeholder="Name" />
-      <input name="subject" type="text" class="feedback-input" placeholder="Subject">
-      <input name="mail" type="text" class="feedback-input" placeholder="Email" />
-      <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
-      <input type="submit" name="submit" value="SUBMIT" />
+      <input name="name" type="text" class="feedback-input" placeholder="Name" required>
+      <input name="subject" type="text" class="feedback-input" placeholder="Subject" required>
+      <input name="mail" type="text" class="feedback-input" placeholder="Email" required>
+      <textarea name="message" class="feedback-input" placeholder="Comment" required></textarea>
+      <input type="submit" name="submit" value="SUBMIT" >
     </form>
   </section>
 
